@@ -13,6 +13,8 @@
 		F9EB0BFC2CBA507F00A63F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0BFA2CBA507F00A63F64 /* Main.storyboard */; };
 		F9EB0BFE2CBA508000A63F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0BFD2CBA508000A63F64 /* Assets.xcassets */; };
 		F9EB0C012CBA508000A63F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0BFF2CBA508000A63F64 /* LaunchScreen.storyboard */; };
+		F9EB0C092CBA54D300A63F64 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EB0C082CBA54D300A63F64 /* TableViewController.swift */; };
+		F9EB0C0B2CBCF03C00A63F64 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EB0C0A2CBCF03C00A63F64 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F9EB0BFD2CBA508000A63F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9EB0C002CBA508000A63F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9EB0C022CBA508000A63F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9EB0C082CBA54D300A63F64 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F9EB0C0A2CBCF03C00A63F64 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				F9EB0BF42CBA507F00A63F64 /* AppDelegate.swift */,
 				F9EB0BF62CBA507F00A63F64 /* SceneDelegate.swift */,
 				F9EB0BF82CBA507F00A63F64 /* ViewController.swift */,
+				F9EB0C082CBA54D300A63F64 /* TableViewController.swift */,
 				F9EB0BFA2CBA507F00A63F64 /* Main.storyboard */,
 				F9EB0BFD2CBA508000A63F64 /* Assets.xcassets */,
 				F9EB0BFF2CBA508000A63F64 /* LaunchScreen.storyboard */,
 				F9EB0C022CBA508000A63F64 /* Info.plist */,
+				F9EB0C0A2CBCF03C00A63F64 /* Movie.swift */,
 			);
 			path = tableView;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				F9EB0BF92CBA507F00A63F64 /* ViewController.swift in Sources */,
 				F9EB0BF52CBA507F00A63F64 /* AppDelegate.swift in Sources */,
 				F9EB0BF72CBA507F00A63F64 /* SceneDelegate.swift in Sources */,
+				F9EB0C092CBA54D300A63F64 /* TableViewController.swift in Sources */,
+				F9EB0C0B2CBCF03C00A63F64 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.tableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,6 +341,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.tableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
